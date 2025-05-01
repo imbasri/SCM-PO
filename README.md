@@ -50,13 +50,13 @@ This guide will help you clone, build, and run a Java Spring Boot application.
 
 Below is an example video demonstrating the steps:
 
-[![Watch the video](https://img.youtube.com/vi/dQw4w9WgXcQ/0.jpg)](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+https://github.com/user-attachments/assets/b882aa79-e8cc-43c7-a53f-e2d5c3cc4b9c
 
 ---
 
 ### Testing with Postman
 
-If you want to test the application using Postman, you can download the Postman collection file: [SCM-PO.postman_collection](./SCM-PO.postman_collection).
+If you want to test the application using Postman, you can download the Postman collection file: [SCM-PO.postman_collection]([./SCM-PO.postman_collection](https://github.com/imbasri/SCM-PO/blob/master/SCM-PO.postman_collection.json)).
 
 ---
 
