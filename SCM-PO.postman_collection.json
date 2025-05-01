@@ -1,0 +1,93 @@
+{
+	"info": {
+		"_postman_id": "615facc2-4e75-4cc3-905d-720ba17906c9",
+		"name": "SCM-PO",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "23706970"
+	},
+	"item": [
+		{
+			"name": "INBOX",
+			"item": [
+				{
+					"name": "import excel database",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "upload excel from user",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "formdata",
+							"formdata": [
+								{
+									"key": "file",
+									"type": "file",
+									"src": []
+								}
+							]
+						},
+						"url": "{{host}}/upload-excel"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "OUTBOX",
+			"item": [
+				{
+					"name": "export database to xml",
+					"request": {
+						"method": "GET",
+						"header": []
+					},
+					"response": []
+				},
+				{
+					"name": "return xml from database",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "{{host}}/download-xml"
+					},
+					"response": []
+				}
+			]
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"packages": {},
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "host",
+			"value": "http://localhost:8080",
+			"type": "string"
+		}
+	]
+}
